@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 import Home from "./containers/Home/Home";
 import ReactPage from "./containers/ReactPage/ReactPage";
+import TsPage from "./containers/TsPage/TsPage";
+import Examples from "./containers/Examples/Examples";
 
 
 function App() {
@@ -21,10 +23,10 @@ function App() {
             <ReactPage/>
           )}/>
           <Route path="/typescript" element={(
-            <h1>TS page</h1>
+            <TsPage/>
           )}/>
           <Route path="/examples" element={(
-            <h1>Examples</h1>
+            <Examples/>
           )}>
             <Route path="1" element={(
               <h2>Example-01</h2>
