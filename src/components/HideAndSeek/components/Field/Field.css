@@ -1,0 +1,27 @@
+.Field {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(6, var(--cell-size));
+    grid-template-rows: repeat(6, var(--cell-size));
+    gap: .5em;
+    user-select: none;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .Field {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 550px) {
+    .Field {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 420px) {
+    .Field {
+        font-size: 0.5em;
+    }
+}

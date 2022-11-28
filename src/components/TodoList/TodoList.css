@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --controls-size: 3rem;
+    --controls-color: #575757;
+    --border-color: #b9b9b9;
+}
+
+.TodoList {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.TodoList-title {
+    font-weight: lighter;
+    margin: 0;
+    padding: 0.3em 0 0.5em;
+}
+
+.TodoList-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+    height: 80vh;
+}
+
+.tasks-container {
+    padding: 1em;
+    flex: 1 1 auto;
+    overflow: auto;
+    box-shadow: 0 0 15px gainsboro;
+}
+
+.tasks-container:empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-container:empty::after {
+    content: "ʕ•ᴥ•ʔ";
+    font-size: 5em;
+    color: gray;
+}
+
+button {
+    user-select: none;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    :root {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 500px) {
+    :root {
+        font-size: .8em;
+    }
+}
