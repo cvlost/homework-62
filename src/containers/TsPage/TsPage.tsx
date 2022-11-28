@@ -20,29 +20,59 @@ const TsPage = () => {
       <section>
         <div className="container">
           <article className=" py-5">
+            <div className="custom-mw">
+              <h3 className="text-center mb-5">Typing &#60;Type&#62;</h3>
+              <p className="mb-5">
+                TypeScript is a free, open source programming language developed and
+                maintained by Microsoft. It is a strict superset of JavaScript that adds optional static
+                typing and class-based, object-oriented programming to the language.
+              </p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <img
+                src={tsLogo}
+                alt="React-logo"
+                className="d-block mb-5"
+                style={{height: '100px'}}
+              />
+            </div>
             <div className="row">
+              <h3 className="text-center mb-5">Key features</h3>
               <div className="col">
-                <h2 className="fs-4">JavaScript and More</h2>
+                <h5 className="text-secondary mb-4 text-center">JavaScript and More</h5>
                 <p>
                   TypeScript adds additional syntax to JavaScript to support a tighter
                   integration with your editor. Catch errors early in your editor.
                 </p>
               </div>
               <div className="col">
-                <h2 className="fs-4">A Result You Can Trust</h2>
+                <h5 className="text-secondary mb-4 text-center">A Result You Can Trust</h5>
                 <p>
                   TypeScript code converts to JavaScript, which runs anywhere JavaScript runs:
                   In a browser, on Node.js or Deno and in your apps.
                 </p>
               </div>
               <div className="col">
-                <h2 className="fs-4">Safety at Scale</h2>
+                <h5 className="text-secondary mb-4 text-center">Safety at Scale</h5>
                 <p>
                   TypeScript understands JavaScript and uses type inference to
                   give you great tooling without additional code.
                 </p>
               </div>
             </div>
+          </article>
+          <article className="text-center">
+            <h3 className="text-center mb-4">Learn even more</h3>
+            <p>
+              Visit the official Typescript web site to get started.
+            </p>
+            <a
+              href="https://www.typescriptlang.org/docs/"
+              target="_blank"
+              className="btn btn-primary btn-lg mb-5"
+            >
+              Get started
+            </a>
           </article>
         </div>
       </section>

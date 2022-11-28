@@ -20,9 +20,27 @@ const ReactPage = () => {
       <section>
         <div className="container">
           <article className=" py-5">
+            <div className="custom-mw">
+              <h3 className="text-center mb-5">What does React provide us?</h3>
+              <p className="mb-5">
+                Created by Facebook and originally open sourced in 2013, React has become one of the most
+                popular libraries in the frontend world today. React is easily extendable and can include
+                features such as routing and state management patterns with libraries like Redux. React
+                is minimal in its footprint but can be customized for almost any project.
+              </p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <img
+                src={reactLogo}
+                alt="React-logo"
+                className="d-block mb-5"
+                style={{height: '100px'}}
+              />
+            </div>
             <div className="row">
+              <h3 className="text-center mb-5">Key features</h3>
               <div className="col">
-                <h2 className="fs-4">Declarative</h2>
+                <h5 className="text-secondary mb-4 text-center">Declarative</h5>
                 <p>
                   React makes it painless to create interactive UIs. Design simple views for each state
                   in your application, and React will efficiently update and render
@@ -33,7 +51,7 @@ const ReactPage = () => {
                 </p>
               </div>
               <div className="col">
-                <h2 className="fs-4">Component-Based</h2>
+                <h5 className="text-secondary mb-4 text-center">Component-Based</h5>
                 <p>
                   Build encapsulated components that manage their own state, then compose them to make complex UIs.
                 </p>
@@ -43,7 +61,7 @@ const ReactPage = () => {
                 </p>
               </div>
               <div className="col">
-                <h2 className="fs-4">Learn Once, Write Anywhere</h2>
+                <h5 className="text-secondary mb-4 text-center">Learn Once, Write Anywhere</h5>
                 <p>
                   We don’t make assumptions about the rest of your technology stack, so you can develop
                   new features in React without rewriting existing code.
@@ -53,6 +71,19 @@ const ReactPage = () => {
                 </p>
               </div>
             </div>
+          </article>
+          <article className="text-center">
+            <h3 className="text-center mb-4">Learn even more</h3>
+            <p>
+              Visit the official React web site to get started.
+            </p>
+            <a
+              href="https://reactjs.org/docs/getting-started.html"
+              target="_blank"
+              className="btn btn-primary btn-lg mb-5"
+            >
+              Get started
+            </a>
           </article>
         </div>
       </section>
