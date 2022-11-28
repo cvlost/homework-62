@@ -1,7 +1,7 @@
 import React from 'react';
 import reactLogo from "../../assets/react-logo.svg";
 import tsLogo from "../../assets/ts-logo.svg";
-import {Link, NavLink, Outlet} from "react-router-dom";
+import {NavLink, Outlet} from "react-router-dom";
 
 const Examples = () => {
   return (
