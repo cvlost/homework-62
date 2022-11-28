@@ -69,6 +69,7 @@ const TsPage = () => {
             <a
               href="https://www.typescriptlang.org/docs/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-primary btn-lg mb-5"
             >
               Get started

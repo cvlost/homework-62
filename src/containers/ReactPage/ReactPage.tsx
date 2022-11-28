@@ -80,6 +80,7 @@ const ReactPage = () => {
             <a
               href="https://reactjs.org/docs/getting-started.html"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-primary btn-lg mb-5"
             >
               Get started

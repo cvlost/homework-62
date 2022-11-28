@@ -35,11 +35,13 @@ const Home = () => {
               <a
                 className="link-primary"
                 href="https://reactjs.org/docs/getting-started.html"
-                target="_blank">React  documentation</a>.
+                target="_blank" rel="noreferrer">React  documentation</a>.
             </p>
             <h2 className="my-4">What is TypeScript?</h2>
             <p>
-              <a href="https://www.typescriptlang.org/" target="_blank" className="link-primary">TypeScript</a> is
+              <a href="https://www.typescriptlang.org/"
+                 target="_blank" rel="noreferrer"
+                 className="link-primary">TypeScript</a> is
               a free, open source programming language developed and maintained by Microsoft.
               It is a strict superset of JavaScript that adds optional static typing and class-based,
               object-oriented programming to the language.

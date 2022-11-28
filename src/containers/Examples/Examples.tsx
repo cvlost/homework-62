@@ -23,7 +23,7 @@ const Examples = () => {
       <section>
         <div className="container">
           <article className="custom-mw py-5">
-            <h3 className="mb-5 text-center">Check out a few following examples</h3>
+            <h3 className="mb-5 text-center">Check out the following examples</h3>
             <ul className="nav nav-tabs justify-content-center">
               <li className="nav-item">
                 <NavLink className="nav-link" to="1">Hide&amp;Seek</NavLink>

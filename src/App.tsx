@@ -10,6 +10,7 @@ import HideAndSeek from "./components/HideAndSeek/HideAndSeek";
 import TodoList from "./components/TodoList/TodoList";
 import Chat from "./components/Chat/Chat";
 import notFoundImg from './assets/not-found.png';
+import gitLogo from './assets/github-logo.png';
 
 
 function App() {
@@ -34,19 +35,40 @@ function App() {
           )}>
             <Route path="1" element={(
               <>
-                <h4 className="p-3">Example 1. Find the Item</h4>
+                <h4 className="p-3 d-flex align-items-center">
+                  <span>Example 1. Fing the Item</span>
+                  <a href="https://github.com/cvlost/homework-54"
+                     className="ms-auto" target="_blank" rel="noreferrer"
+                  >
+                    <img src={gitLogo} alt="Git-repo"/>
+                  </a>
+                </h4>
                 <HideAndSeek/>
               </>
             )}/>
             <Route path="2" element={(
               <>
-                <h4 className="p-3">Example 2. Todo list</h4>
+                <h4 className="p-3 d-flex align-items-center">
+                  <span>Example 2. Todo List</span>
+                  <a href="https://github.com/cvlost/homework-53"
+                     className="ms-auto" target="_blank" rel="noreferrer"
+                  >
+                    <img src={gitLogo} alt="Git-repo"/>
+                  </a>
+                </h4>
                 <TodoList/>
               </>
             )}/>
             <Route path="3" element={(
               <>
-                <h4 className="p-3">Example 3. Chat</h4>
+                <h4 className="p-3 d-flex align-items-center">
+                  <span>Example 3. Chat</span>
+                  <a href="https://github.com/cvlost/homework-60"
+                     className="ms-auto" target="_blank" rel="noreferrer"
+                  >
+                    <img src={gitLogo} alt="Git-repo"/>
+                  </a>
+                </h4>
                 <Chat/>
               </>
             )}/>
